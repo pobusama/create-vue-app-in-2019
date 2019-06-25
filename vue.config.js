@@ -6,7 +6,9 @@ module.exports = {
     plugins: [new BundleAnalyzerPlugin()],
     externals: {
       vue: "window.Vue",
-      "vue-router": "window.VueRouter"
+      "vue-router": "window.VueRouter",
+      axios: "window.axios",
+      "element-ui": "window.ELEMENT"
     }
   }
 };

@@ -13,6 +13,7 @@ export default new Router({
         ...require("./views/misc").default,
         ...require("./views/business-a").default,
         ...require("./views/business-b").default,
-        ...require("./views/business-c").default
+        ...require("./views/business-c").default,
+        ...require("./views/douban-movies").default
       ]
 });
